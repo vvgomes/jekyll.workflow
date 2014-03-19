@@ -5,19 +5,16 @@ A simplified way to deploy a [Jekyll][jekyll-url] site to [Github Pages][gh-page
 
 ### How
 1. Download the deploy script:
-
 ```bash
 curl https://raw.github.com/vvgomes/jekyll.workflow/master/deploy > deploy
 ```
 
 2. Exclude the deploy script in your _config.yml:
-
 ```yaml
 exclude: [deploy]
 ```
 
 3. Run the deploy script:
-
 ```bash
 ./deploy
 ```
