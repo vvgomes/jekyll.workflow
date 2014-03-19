@@ -10,7 +10,7 @@ A simplified way to deploy a [Jekyll][jekyll-url] site to [Github Pages][gh-page
 curl https://raw.github.com/vvgomes/jekyll.workflow/master/deploy > deploy
 ```
 
-2. Exclude the deploy script in your _config.yml.
+2. Exclude the deploy script in your _config.yml:
 
 ```yaml
 exclude: [deploy]
