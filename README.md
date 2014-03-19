@@ -1,7 +1,7 @@
-# jekyll.workflow
-## master ⇝ gh-pages
+jekyll.workflow
+===
 
-A simplified way to deploy a jekyll site to gh-pages.
+A simplified way to deploy a [Jekyll][jekyll-url] site to [Github Pages][gh-pages-url].
 
 ### How
 1. Download the deploy script:
@@ -21,4 +21,7 @@ exclude: [deploy]
 ```bash
 ./deploy
 ```
+
+[jekyll-url]: http://jekyllrb.com/
+[gh-pages-url]: http://pages.github.com/
 
