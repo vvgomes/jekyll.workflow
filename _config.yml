@@ -1,9 +1,0 @@
-name:        jekyll.workflow
-
-baseurl:     /jekyll.workflow
-include:     ['.nojekyll', 'CNAME']
-exclude:     ['Makefile', 'README.md', 'LICENSE', 'Gemfile*', 'script', 'install.sh']
-
-pygments:    true
-gems:        ['jekyll-less']
-markdown:    redcarpet
